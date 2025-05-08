@@ -1,0 +1,29 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="minimal-container">
+      <header className="header">
+        <h1>Desarrollo de Aplicaciones Móviles II</h1>
+        <p>Luis Felipe Fernández Gurrola</p>
+        <p>EBC</p>
+      </header>
+
+      <div className="video-frame">
+        <video controls className="video-element">
+          <source src="/tu-video.mp4" type="video/mp4" />
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </div>
+
+      <footer className="footer">
+        <a href="https://www.github.com/link" target="_blank" rel="noopener noreferrer">
+          WWW.GITHUB.COM/LINK
+        </a>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
