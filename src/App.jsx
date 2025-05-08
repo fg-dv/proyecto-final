@@ -11,21 +11,20 @@ function App() {
       
       <footer className="footer-links">
   <a 
-    href="https://github.com/fg-dv/backend-kotlin" 
+    href="https://drive.google.com/open?id=1kkbvQHSaO5mc83sf0XMlZWmTQdhOUOiO&usp=drive_fs" 
     target="_blank" 
     rel="noopener noreferrer"
     className="repo-link"
   >
-    Repo del Backend
+    Liga del proyecto
   </a>
-  <span className="link-separator">|</span>
+  <span className="link-separator"></span>
   <a 
-    href="https://github.com/fg-dv/front-kotlin" 
+    href="" 
     target="_blank" 
     rel="noopener noreferrer"
     className="repo-link"
   >
-    Repo del Front
   </a>
 </footer>
     </div>
